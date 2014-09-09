@@ -1,0 +1,13 @@
+#
+# /etc/default/alfred
+#
+
+# Additional command line options
+DAEMON_OPTS=""
+
+# Interface for A.L.F.R.E.D. to listen on. Has to be specified.
+INTERFACE=bat0
+
+# Specify the batman-adv interface configured on the system (default: bat0).
+# Use 'none' to disable the batman-adv based best server selection.
+BATMANIF=bat0

@@ -1,3 +1,10 @@
+alfred (2014.3.0-9) wheezy; urgency=low
+
+  * seperate config file for batadv-vis
+  * alfred: allow toggling of master mode
+
+ --  <nils@philae.metameute.de>  Tue, 09 Sep 2014 14:52:38 +0200
+
 alfred (2014.3.0-8) wheezy; urgency=medium
 
   * add initscripts

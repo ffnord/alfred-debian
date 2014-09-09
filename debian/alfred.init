@@ -27,6 +27,7 @@ UMASK=117
 
 [ -n "$INTERFACE" ] && OPTIONS="$OPTIONS -i $INTERFACE"
 [ -n "$BATMANIF" ] && OPTIONS="$OPTIONS -b $BATMANIF"
+[ "$MASTER" = "1" ] && OPTIONS="$OPTIONS -m"
 [ -n "$DAEMON_OPTS" ] && OPTIONS="$OPTIONS $DAEMON_OPTS"
 
 . /lib/lsb/init-functions

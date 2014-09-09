@@ -22,7 +22,7 @@ OPTIONS="-s"
 [ -x "$DAEMON" ] || exit 0
 
 # Source defaults.
-[ -r /etc/default/alfred ] && . /etc/default/alfred
+[ -r /etc/default/$NAME ] && . /etc/default/$NAME
 
 [ -n "$BATMANIF" ] && OPTIONS="$OPTIONS -i $BATMANIF"
 

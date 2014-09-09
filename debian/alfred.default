@@ -5,6 +5,9 @@
 # Additional command line options
 DAEMON_OPTS=""
 
+# Enable master mode (0/1)
+MASTER=0
+
 # Interface for A.L.F.R.E.D. to listen on. Has to be specified.
 INTERFACE=bat0
 

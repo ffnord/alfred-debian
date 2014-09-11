@@ -1,3 +1,9 @@
+alfred (2014.3.0-10) wheezy; urgency=low
+
+  * fix umask of socket
+
+ -- Nils Schneider <nils@nilsschneider.net>  Thu, 11 Sep 2014 17:14:29 +0200
+
 alfred (2014.3.0-9) wheezy; urgency=low
 
   * seperate config file for batadv-vis

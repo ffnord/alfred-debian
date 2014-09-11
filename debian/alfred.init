@@ -18,7 +18,7 @@ PIDFILE=/var/run/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME
 GROUP=alfred
 OPTIONS=""
-UMASK=117
+UMASK=0117
 
 [ -x "$DAEMON" ] || exit 0
 

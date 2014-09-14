@@ -1,7 +1,7 @@
 Source: alfred
 Section: net
 Priority: extra
-Maintainer: Tobias Hachmer (KokelNET) <network@kokelnet.de>
+Maintainer: Nils Schneider (nils@nilsschneider.net)
 Build-Depends: debhelper (>= 8.0.0), quilt, pkg-config
 Standards-Version: 3.9.3
 Homepage: 

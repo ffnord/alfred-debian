@@ -1,3 +1,9 @@
+alfred (2014.3.0-11) wheezy; urgency=low
+
+  * update maintainer
+
+ -- Nils Schneider <nils@nilsschneider.net>  Thu, 14 Sep 2014 14:56:58 +0200
+
 alfred (2014.3.0-10) wheezy; urgency=low
 
   * fix umask of socket
